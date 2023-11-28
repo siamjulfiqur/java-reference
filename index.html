@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+
+
+<div class="container">
+    <h2>click the button show the light on</h2>
+    <button  class="btn btn-primary" onclick="bulbOn()">on</button>
+    <img id="img" src="images/pic_bulboff.gif" alt="">
+
+    <button class="btn btn-primary" onclick="bulbOff()">off</button>
+</div>
+<hr>
+<div class="container">
+    <h2>click the button show the text</h2>
+    <button class="bnt btn-dark" onclick="textChang()"> text change</button>
+    <h2 id="text">javascript event reference</h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>javascript in head</h2>
+    <button class="btn btn-dark" onclick="paraChange()">click the change</button>
+    <h2 id="h2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing.
+    </h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2> click the button show the sum</h2>
+    <button  class="btn btn-primary" ondblclick=" sumAddition()"> ondblclick</button>
+    <h2 id="sum"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</h2>
+    <button class="btn btn-primary" onmouseover="stateMent()">click</button>
+    <h3 id="state"></h3>
+</div>
+
+<hr>
+<div class="container">
+    <h2>Number can be written with or without decimals</h2>
+    <button class="btn btn-dark" onclick="deciMals()">addition</button>
+    <h2 id="deci"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>Strings can be written with double or single quotes</h2>
+    <button class="btn btn-primary" onclick="singleQuotes()">click</button>
+    <h2 id="single"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h1>click the button show the comment change</h1>
+    <h2 id="hd"></h2>
+    <button class="btn btn-dark" onclick="javaComment()">click</button>
+    <h4 id="hp"></h4>
+    <button class="btn btn-dark" onclick="javaPara()">click</button>
+</div>
+
+<hr>
+<div class="container">
+    <h2>They are automatically declared when first used</h2>
+    <button class="btn btn-primary" ondblclick="jsVeriable()">doubleclick</button>
+    <h2 id="dec"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>Redeclaring a Variable Using var</h2>
+    <button class="btn btn-primary" onclick="jsLet()">click</button>
+    <h2 id="alpa"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>The = Operator</h2>
+    <button class="btn btn-dark" onmouseout="jsOperator()">onmouseout</button>
+    <h2 id="jsop"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>JavaScript Arithmetic</h2>
+    <button class="btn btn-primary" onclick="jsArithmetic()">onclick</button>
+    <h3 id="jsarith"></h3>
+</div>
+<div class="container">
+    <h2>Addition Assignment</h2>
+    <h3>The += Operator</h3>
+    <button class="btn btn-dark" onclick="jsAssignment()">onclick</button>
+    <h2 id="addi"></h2>
+</div>
+<hr> 
+<div class="container">
+    <h2>When adding a number and a string, JavaScript will treat the number as a string</h2>
+    <button class="btn btn-dark" ondblclick="datatypes()">ondblclick</button>
+    <h2 id="dtyps"></h2>
+</div>
+<div class="container">
+<h2>JavaScript Variables</h2>
+<button class="btn btn-danger" onclick="jsVariable()">onclick</button>
+<h2 id="vari"></h2>
+</div>
+<hr>
+<div class="container">
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onclick Attribute</h2>
+    <button class="btn btn-danger" onclick="jsEvent()">The time is?</button>
+    <h2 id="eve"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>JavaScript Strings</h2>
+    <button class="btn btn-primary" onclick="jsString()">onclick</button>
+    <h2 id="stri"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>JavaScript Strings</h2>
+    <h2>The length Property</h2>
+    <button class="btn btn-dark" onclick="jsStrings()">onclick</button>
+    <h2 id="leng"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>The indexOf() Method</h2>
+
+<p>The indexOf() method returns the position of the first occurrence of a string in a string.</p>
+<p>The position of the first occurrence of "locate" is:</p>
+<button class="btn btn-danger" onclick="jsMethod()"> onclik</button>
+<h2 id="index"></h2>
+</div>
+
+
+<hr>
+<div class="container">
+    <h2>JavaScript Template Literals</h2>
+
+<p>Template literals use back-ticks (``) to define a string:</p>
+<button class="btn btn-primary" onclick="jsTemplet()">onclick</button>
+<h2 id="tem"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>JavaScript Numbers</h2>
+<p>Numbers can be written with or without decimals:</p>
+<button class="btn btn-danger" onclick="jsNumber()">onclick</button>
+<h2 id="num"></h2>
+</div>
+
+<hr> 
+<div class="container">
+    <h2>JavaScript Arrays</h2>
+    <button class="btn btn-primary" onclick="jsArry()">onclick</button>
+    <h2 id="jsarry"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>The length Property</h2>
+    <p>The length property returns the length of an array:</p>
+    <button class="btn btn-dark" onclick="jsProperty()">onclick</button>
+    <h2 id="pro"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>The sort() Method</h2>
+    <p>The sort() method sorts an array alphabetically:</p>
+    <button class="btn btn-danger" onclick="jsSort()">onclick</button>
+    <h2 id="no1"></h2>
+    <button class="btn btn-primary" onclick="jsSort2()">onclick</button>
+    <h2 id="no2"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>Using new Date()</h2>
+    <p>new Date() without arguments, creates a date object with the current date and time:</p>
+    <button class="btn btn-dark" onclick="newDate()">onclick</button>
+    <h2 id="nda"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <h2>JavaScript Math.PI</h2>
+    <p>Math.PI returns the ratio of a circle's circumference to its diameter:</p>
+    <button class="btn btn-dark" onclick="jsMath()">onclick</button>
+    <h2 id="math"></h2>
+</div>
+
+<hr>
+<div class="container">
+    <p>Display the value of Boolean(10 > 9):</p>
+    <button class="btn btn-dark" onclick="jsBoolean()">click</button>
+    <h2 id="boo"></h2>
+</div>
+<hr>
+<div class="container">
+    <h2>JavaScript switch</h2>
+    <button class="btn btn-primary" onclick="jsSwitch()">switch</button>
+    <h2 id="swi"></h2>
+</div>
+
+<div class="container">
+    <h2>JavaScript For Loop</h2>
+    <button class="btn btn-dark" onclick="forLoop()">click</button>
+    <h2 id="loop"></h2>
+</div>
+
+
+
+
+
+
+
+
+    <script src="jss/jquery-3.7.1.min.js"></script>
+    <script src="jss/bootstrap.bundle.min.js"></script>
+    <script src="jss/script.js"></script>
+</body>
+</html>
